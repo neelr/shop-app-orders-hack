@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#6366F1"/>
+
+  <!-- Package icon -->
+  <g transform="translate(32, 32)">
+    <!-- Box -->
+    <rect x="8" y="24" width="48" height="32" rx="2" fill="white" opacity="0.9"/>
+    <path d="M8 24 L32 12 L56 24 L56 56 L32 68 L8 56 Z" stroke="white" stroke-width="3" fill="none"/>
+    <path d="M8 24 L32 36 L56 24" stroke="white" stroke-width="3" fill="none"/>
+    <path d="M32 36 L32 68" stroke="white" stroke-width="3" fill="none"/>
+
+    <!-- Delivery truck hint -->
+    <circle cx="48" cy="48" r="16" fill="#FFD700" opacity="0.9"/>
+    <rect x="40" y="43" width="12" height="8" fill="#6366F1" rx="1"/>
+    <rect x="52" y="45" width="4" height="6" fill="#6366F1" rx="0.5"/>
+    <circle cx="43" cy="52" r="2" fill="#333"/>
+    <circle cx="53" cy="52" r="2" fill="#333"/>
+  </g>
+
+  <!-- Badge for orders count -->
+  <circle cx="96" cy="32" r="16" fill="#EF4444"/>
+  <text x="96" y="38" text-anchor="middle" fill="white" font-size="18" font-weight="bold" font-family="Arial">!</text>
+</svg>

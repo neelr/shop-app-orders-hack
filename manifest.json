@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Shop.app Deliveries Tracker",
+  "version": "1.0.0",
+  "description": "Adds an Orders page to Shop.app to track your deliveries",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://shop.app/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://shop.app/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
